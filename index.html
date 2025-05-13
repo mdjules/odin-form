@@ -19,7 +19,7 @@
             <p>Go along with it and sign up!</p>
         </div>
         <div class="form">
-            <form action="#" method="post">
+            <form id="myForm" action="#" method="post">
                 <label for="first-name">First Name:</label>
                 <input id="first-name" type="text">
 
@@ -38,8 +38,14 @@
                 <label for="confirm-password">Confirm Password:</label>
                 <input id="confirm-password" type="password">
 
-                <input type="submit" value="Submit">
+                
+                
             </form>  
+
+            <div class="form-submit">
+                <button type="submit" form="myForm">Create Account</button>
+            </div>
+
         </div>  
     </div>
 </body>
